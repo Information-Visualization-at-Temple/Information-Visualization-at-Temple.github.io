@@ -2,9 +2,11 @@
 layout: default
 ---
 
-<placeholder>
+...
+
 
 ## Class Information
+  
 Instructor: -
 
 TA:
@@ -15,5 +17,6 @@ Location:
 
 Office Hours:
 
+  
 ## Links
 
