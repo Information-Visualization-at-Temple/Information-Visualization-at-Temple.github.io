@@ -1,0 +1,41 @@
+<!-- Course Contributors -->
+<h2>Course Contributors</h2>
+<div class="card-deck">
+    {% for ack in site.acknowledgements %}
+
+        {%- if ack.role != "Guest Speaker" -%}
+
+            {%- assign ack_name = ack.name -%}
+            {%- assign ack_role = ack.role -%}
+            {%- assign ack_url = ack.external_url -%}
+            {%- assign external    = true -%}
+            {%- assign ack_portrait = ack.portrait -%}
+            {%- assign ack_desc = ack.description -%}
+
+            {% include acknowledgements/acknowledgement-card.html %}
+
+        {%- endif -%}
+
+    {% endfor %}
+</div>
+
+<!-- Special Thanks -->
+<h2>Special Thanks</h2>
+<div class="card-deck">
+    {% for ack in site.acknowledgements %}
+
+        {%- if ack.role == "Guest Speaker" -%}
+
+            {%- assign ack_name = ack.name -%}
+            {%- assign ack_role = ack.role -%}
+            {%- assign ack_url = ack.external_url -%}
+            {%- assign external    = true -%}
+            {%- assign ack_portrait = ack.portrait -%}
+            {%- assign ack_desc = ack.desc -%}
+
+            {% include acknowledgements/acknowledgement-card.html %}
+
+        {%- endif -%}
+        
+    {% endfor %}
+</div>
