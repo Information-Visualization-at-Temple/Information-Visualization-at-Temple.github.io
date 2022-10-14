@@ -3,4 +3,4 @@ layout: default
 permalink: /
 ---
 
-{% include projects/index.html %}
+{% include projects-2022/index.html %}

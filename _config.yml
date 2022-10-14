@@ -51,9 +51,15 @@ permalink: /blog/:title
 
 ### Collections ###
 collections:
-  projects:
+  projects-2022:
     output: true
-    permalink: /projects/:name
+    permalink: /projects-2022/:name
+  projects-2023:
+    output: true
+    permalink: /projects-2023/:name
+  projects-2024:
+    output: true
+    permalink: /projects-2024/:name
   acknowledgements:
     output: true
 
