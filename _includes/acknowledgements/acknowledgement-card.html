@@ -1,9 +1,10 @@
-<div class="card w-25 border-0">
-    <img class="card-img-top w-50" src="{{ ack_portrait }}" alt="Portrait of {{ ack_name }}">
-    <div class="card-body">
-        <h4 class="card-title">{{ ack_name }}</h4>
-        <h5>{{ ack_role }}</h5>
-        <p class="card-text">{{ ack_desc }}</p>
-        <a href="{{ ack_url }}" class="btn btn-primary">Website</a>
+<div class="col-md-3">
+    <div class="card border-0">
+        <img class="card-img-top" src="{{ ack_portrait }}" alt="Portrait of {{ ack_name }}">
+        <div class="card-body">
+            <h5 class="card-title"><a href="{{ ack_url }}">{{ ack_name }}</a></h5>
+            <h6 class="card-subtitle mb-2 text-muted">  {{ ack_role }}</h6>
+            <p class="card-text small">{{ ack_desc }}</p>
+        </div>
     </div>
-</div>
+</div> 

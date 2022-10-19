@@ -1,7 +1,7 @@
 ---
-name: Person One
+name: Person Five
 role: Teaching Assistant
 portrait: /portraits/Placeholder.png
-description: Description of Person One's constributions to the course.
+description: Description of Person Two's constributions to the course.
 external_url: https://github.com
 ---
