@@ -1,16 +1,16 @@
 <ul class="nav nav-pills justify-content-end">
     <li class="nav-item p-2">View Projects By Year</li>
     <li class="nav-item">
-      <a class="nav-link btn-secondary {% if page.url == '/' %} active {% endif %}" href="/">2022</a>
+      <a class="nav-link btn-secondary {% if page.url == '/' %} active {% endif %}" aria-disabled="true" href="/">2022</a>
     </li>
     {% assign url_2023 = site.baseurl | append: '/projects-2023' %}
     {% assign url_2024 = site.baseurl | append: '/projects-2024' %}
 
     <li class="nav-item">
-      <a class="nav-link btn-secondary {% if page.url == '/projects-2023' %} active {% endif %}" tabindex="-1" href="{{ url_2023 }}">2023</a>
+      <a class="nav-link btn-secondary disabled {% if page.url == '/projects-2023' %} active {% endif %}" tabindex="-1" aria-disabled="true" href="{{ url_2023 }}">2023</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link btn-secondary {% if page.url == '/projects-2024' %} active {% endif %}" tabindex="-1" href="{{ url_2024 }}">2024</a>
+      <a class="nav-link btn-secondary disabled {% if page.url == '/projects-2024' %} active {% endif %}" tabindex="-1" aria-disabled="true" href="{{ url_2024 }}">2024</a>
     </li>
   </ul>
   
