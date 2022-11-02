@@ -1,7 +1,7 @@
 ---
-name: Person One
-role: Teaching Assistant
-portrait: /portraits/Placeholder.png
-description: Description of Person One's constributions to the course.
-external_url: https://github.com
+name: Stephen MacNeil
+role: Instructor
+portrait: smacneil.jpeg
+description: Course creator
+external_url: http://stevemacn.github.io/
 ---

@@ -1,8 +1,14 @@
+
+
 <div class="col-md-3">
     <div class="card border-0">
-        <img class="card-img-top" src="{{ ack_portrait }}" alt="Portrait of {{ ack_name }}">
+        {% if ack_portrait != nil %}
+        <img class="card-img-top" src="/img/people/{{ ack_portrait }}" alt="Portrait of {{ ack_name }}">
+        {% else %}
+        <img class="card-img-top" src="/img/people/Portfolio.png" alt="Portrait of {{ ack_name }}">
+        {% endif %}
         <div class="card-body">
-            <h5 class="card-title"><a href="{{ ack_url }}">{{ ack_name }}</a></h5>
+            <h6 style="font-weight:700;" class="card-title"><a href="{{ ack_url }}">{{ ack_name }}</a></h6>
             <h6 class="card-subtitle mb-2 text-muted">  {{ ack_role }}</h6>
             <p class="card-text small">{{ ack_desc }}</p>
         </div>

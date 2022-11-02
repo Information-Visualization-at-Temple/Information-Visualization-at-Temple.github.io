@@ -1,7 +1,7 @@
 ---
-name: Person Two
+name: Marshall Walsh
 role: Teaching Assistant
-portrait: /portraits/Placeholder.png
-description: Description of Person Two's constributions to the course.
+portrait: Placeholder.png
+description: Content and website developer
 external_url: https://github.com
 ---

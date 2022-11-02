@@ -1,6 +1,6 @@
 <!-- Course Contributors -->
-<h2>Course Contributors</h2>
-<div class="row row-cols-4">
+<h3>Course Developers</h3>
+<div class="row">
     {% for ack in site.acknowledgements %}
 
         {%- if ack.role != "Guest Speaker" -%}
@@ -20,8 +20,8 @@
 </div>
 
 <!-- Special Thanks to Our Guests-->
-<h2>Special Thanks to Our Guests</h2>
-<div class="row row-cols-4">
+<h3>Special Thanks to Our Guests</h3>
+<div class="row">
     {% for ack in site.acknowledgements %}
 
         {%- if ack.role == "Guest Speaker" -%}
