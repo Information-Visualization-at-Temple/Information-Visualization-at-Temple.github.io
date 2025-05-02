@@ -57,9 +57,9 @@ collections:
   projects-2023:
     output: true
     permalink: /projects-2023/:name
-  projects-2024:
+  projects-2025:
     output: true
-    permalink: /projects-2024/:name
+    permalink: /projects-2025/:name
   acknowledgements:
     output: true
 
