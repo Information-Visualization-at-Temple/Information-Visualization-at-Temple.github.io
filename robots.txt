@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://information-visualization-at-temple.github.io/sitemap.xml
