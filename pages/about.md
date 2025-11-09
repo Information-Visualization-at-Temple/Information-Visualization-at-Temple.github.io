@@ -16,7 +16,11 @@ weight: 3
 
 ## About the Instructor
 
-This course is taught by [Stephen MacNeil](http://stevemacn.github.io/), Assistant Professor in the Department of Computer and Information Sciences at Temple University. Dr. MacNeil also directs the [Temple HCI Lab](https://www.linkedin.com/company/86923277) and the [OwlHacks Hackathon](https://www.owlhacks.com/) also at Temple University.
+This course is taught by [Stephen MacNeil](http://stevemacn.github.io/), Assistant Professor in the Department of Computer and Information Sciences at Temple University. Dr. MacNeil also directs the [Temple HCI Lab](https://www.linkedin.com/company/86923277) and the [OwlHacks Hackathon](https://www.owlhacks.com/) also at Temple University. 
+
+If you're interested in expanding your knowledge in HCI or computer science, check out additional HCI-focused and related courses offered by the Temple University Computer Science Department here:
+
+[Additional Courses](https://stevemacn.github.io/courses/)
 
 ## Course Format and Topics
 
