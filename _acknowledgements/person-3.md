@@ -1,7 +1,7 @@
 ---
-name: Person Three
-role: Guest Speaker
+name: Kush Patel
+role: Teaching Assistant
 portrait: Placeholder.png
-description: Description of Person Three's constributions to the course.
+description: 
 external_url: https://github.com
 ---
